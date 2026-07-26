@@ -1,0 +1,38 @@
+body {
+  /* 外面 */
+  width: 600px;
+  margin: 0 auto;
+  border: 5px solid black;
+  /* 内部 */
+  font-family: "Edu VIC WA NT Hand", cursive;
+  padding: 0 20px 20px 20px;
+  background-color: #f0f8ff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  padding: 20px 0;
+  margin: 0;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #d9e4ef;
+}
+
+.done {
+  color: aquamarine;
+  text-decoration: line-through solid black 2px;
+}
